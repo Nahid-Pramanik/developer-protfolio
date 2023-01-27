@@ -33,7 +33,7 @@ font-size: 45px;
 nav{
   display: flex;
   justify-content: space-between;
-  margin: 50px 200px;
+  padding: 50px 200px;
 }
 nav ul{
   display: flex;
@@ -195,9 +195,11 @@ margin-bottom: 20px;
   text-align: center;
 }
 /* contact styles strat   */
-.contact{
-
-}
+/* .contact{
+  background: #FFF8F3;
+  margin: 0;
+  padding: 0;
+} */
 .contact-content{
   display: flex;
   background: #FFF8F3;
