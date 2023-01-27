@@ -194,3 +194,36 @@ margin-bottom: 20px;
 .btn-center{
   text-align: center;
 }
+/* contact styles strat   */
+.contact{
+
+}
+.contact-content{
+  display: flex;
+  background: #FFF8F3;
+  padding: 130px 50px;
+  gap: 100px;
+}
+.contact-content .section-title{
+  text-align: left;
+}
+.contact-description{
+  color: #474747;
+  font-size: 16px;
+  max-width: 560px;
+  margin-bottom: 30px;
+}
+.contact-info a{
+  text-decoration: none;
+  margin-right: 24px;
+}
+.contact-info-msg input[type="text"], input[type="email"], textarea{
+  margin-bottom: 24px; 
+  border: 0;
+  width: 90%;
+  padding: 18px 30px;
+  border-radius: 5px;
+}
+input{
+  height: 64px;
+}
