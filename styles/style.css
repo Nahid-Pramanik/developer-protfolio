@@ -1,7 +1,9 @@
 *{
   margin: 0;
   font-family: 'Open Sans';
-  
+}
+section{
+  margin-bottom: 130px;
 }
 .primary-color{
   color: #FD6E0A;
@@ -69,4 +71,126 @@ height: 60px;
 }
 .banner-img img{
   width: 568px;
+}
+/* main style */
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+
+}
+.about{
+  background: #FFF8F3;
+border-radius: 10px;
+padding: 130px 150px;
+margin-top: 130px;    
+}
+.section-title{
+  font-weight: 700;
+font-size: 35px;
+  text-align: center;
+  margin-bottom: 30px;
+
+}
+.about-description{
+  color: #757575;
+  font-weight: 400;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  max-width: 827px;
+}
+
+.about-info-container{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.info-title{
+  color: #757575;
+  font-size: 20px;
+  text-align: center;
+}
+.info-description{
+  font-weight: 700;
+font-size: 20px;
+color: #474747;
+
+}
+/* skill style start */
+.section-description{
+  color: #757575;
+  font-size: 18px;
+  margin: 0 140px 50px 140px;
+  text-align: center;
+}
+.skill-container{
+  display: flex;
+  gap: 24px;
+}
+.skill{
+  background: #FFFFFF;
+box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+border-radius: 5px;
+width: 267px;
+padding: 30px;
+
+}
+.skill-title{
+  font-weight: 700;
+  font-size: 20px;
+  font-weight: 700;
+font-size: 20px;
+margin-top: 30px;
+  margin-bottom: 20px;
+}
+.skill-description{
+  color: #757575;
+  font-size: 16px;
+}
+
+.mr-b{
+  margin-bottom: 100px;
+}
+/* Resume styles :start */
+
+.resume-content{
+  display: flex;
+  justify-content: space-around;
+}
+.education-title{
+  font-weight: 700;
+font-size: 30px;
+color: #474747;
+}
+.education-info{
+  margin-top: 30px;
+  max-width: 500px;
+  border-bottom: 1px solid #D1D1D1;
+}
+.border-bottom{
+  border: none;
+}
+.edu-info-title{
+  font-weight: 700;
+font-size: 25px;
+color: #474747;
+margin-bottom: 10px;
+}
+.edu-info-univarsity{
+  font-weight: 600;
+font-size: 20px;
+color: #757575;
+margin-bottom: 20px;
+}
+.edu-info-description{
+  color: #757575;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.experience{
+  margin-left: 24px;
+}
+.btn-center{
+  text-align: center;
 }
